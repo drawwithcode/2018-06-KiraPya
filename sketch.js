@@ -36,7 +36,7 @@ function setup() {
 
 function draw() {
   // put drawing code here
-  background(200)
+  background(178, 186, 187);
 	for(var j = 0; j < balls.length; j++) {
 		balls[j].move();
 		balls[j].display();
